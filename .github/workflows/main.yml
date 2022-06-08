@@ -45,12 +45,12 @@ jobs:
       - name: Build Android Dev APK
         run: ionic cordova build android
 
-      - name: Build Android Release APK
-        run: ionic cordova build android --release --prod
+#       - name: Build Android Release APK
+#         run: ionic cordova build android --release --prod
 
-      - name: Generate the Android App Bundle
-        working-directory: ./platforms/android/
-        run: ./gradlew bundle
+#       - name: Generate the Android App Bundle
+#         working-directory: ./platforms/android/
+#         run: ./gradlew bundle
 
       - name: Upload dev APK
         uses: actions/upload-artifact@v1
