@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-item',
   templateUrl: './item.page.html',
-  styleUrls: ['./item.page.css'],
+  styleUrls: ['./item.page.scss'],
 })
 export class ItemPage implements OnInit {
 
